@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+     <li class="nav-item">
+       <!-- <a class="nav-link" routerLink="/trang-chu">Trang Chu</a> -->
+          <a [routerLink]="[ '/tin-tuc' ]" class="nav-link">Tin Tuc</a>
+     </li>
+    <li class="nav-item">
+      <!-- <a class="nav-link" routerLink="/trang-chu">Trang Chu</a> -->
+        <a [routerLink]="[ '/trang-chu' ]" class="nav-link">Trang Chu</a>
+    </li>
+    <li class="nav-item">
+      <!-- <a class="nav-link" routerLink="/danh-sach-phim">Danh Sach Phim</a> -->
+        <a [routerLink]="[ '/danh-sach-phim' ]" class="nav-link">Danh Sach Phim</a>
+    </li>
+    <!-- Dropdown -->
+  </ul>
+</nav>
+<router-outlet></router-outlet>
