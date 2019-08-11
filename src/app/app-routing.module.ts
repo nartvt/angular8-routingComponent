@@ -5,7 +5,6 @@ import { AdminComponent } from './admin/admin.component';
 import { TrangChuComponent } from './home/trang-chu/trang-chu.component';
 import { TinTucComponent } from './home/tin-tuc/tin-tuc.component';
 import { DanhSachPhimComponent } from './home/danh-sach-phim/danh-sach-phim.component';
-
 const routes: Routes = [
   //Routing Home Page
   {
@@ -15,7 +14,7 @@ const routes: Routes = [
       { path: "danh-sach-phim", component: DanhSachPhimComponent }
   ]},
   // { path: "home", component: HomeComponent },
-  {path: "admin",component: AdminComponent}
+  { path: "admin", component: AdminComponent },
 
 ];
 
